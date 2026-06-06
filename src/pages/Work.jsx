@@ -112,8 +112,8 @@ const Work = () => {
       title: "Portfolio Website",
       desc: "Personal portfolio website showcasing projects, technical skills, achievements, and AI/ML development journey.",
       img: "./portfolio.png",
-      live: "#",
-      git: "https://github.com/Abdulwahid84",
+      live: "https://abdul-wahid-portfolio-five.vercel.app/",
+      git: "https://github.com/Abdulwahid84/Portfolio/tree/main",
       tech: [
         "React",
         "Tailwind CSS",
