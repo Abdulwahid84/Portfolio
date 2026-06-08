@@ -38,7 +38,7 @@ A clean, modern, and fully responsive **Portfolio Website** built using **React.
 | ⚙️ **Skills** | Lists all skills with animated percentage bars |
 | 💼 **Work** | Displays all projects with links to live sites & GitHub repos |
 | 👨‍💻 **About** | Abdul Wahid journey and background |
-|  **Connect** | |
+|  **Connect** | feel free to connet with me |
 ---
 
 ## 🎨 Color Palette  
