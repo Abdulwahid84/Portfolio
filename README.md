@@ -1,4 +1,4 @@
-# 🌐 MD Abdul Wahid Ekram Portfolio Website 
+# 🌐 MD Abdul Wahid Ekram Portfolio 
 
 A clean, modern, and fully responsive **Portfolio Website** built using **React.js, Tailwind CSS, Framer Motion, and Lucide React** — complete with dark/light mode, animations, and smooth page transitions.
 
