@@ -18,114 +18,84 @@ const Work = () => {
   const borderColor = isDark ? "border-blue-900/40" : "border-blue-100";
 
   const projects = [
-    {
-      title: "Phish Catcher",
-      desc: "A real-time phishing detection Chrome extension using Random Forest and XGBoost models with 96% accuracy for secure URL classification.",
-      img: "./phish.jpg",
-      live: "https://github.com/Abdulwahid84/phishing-detection-chrome-extension/tree/main",
-      git: "https://github.com/Abdulwahid84/phishing-detection-chrome-extension/tree/main",
-      tech: [
-        "Python",
-        "Scikit-learn",
-        "XGBoost",
-        "JavaScript",
-        "Chrome Extension",
-      ],
-    },
+  {
+    title: "Phish Catcher",
+    desc: "A real-time phishing detection Chrome extension that uses Random Forest and XGBoost models to classify malicious URLs with 96% accuracy and enhance browsing security.",
+    img: "./phish.jpg",
+    live: "https://github.com/Abdulwahid84/phishing-detection-chrome-extension",
+    git: "https://github.com/Abdulwahid84/phishing-detection-chrome-extension",
+    tech: [
+      "Python",
+      "Scikit-learn",
+      "XGBoost",
+      "JavaScript",
+      "Chrome Extension",
+    ],
+  },
 
-    {
-      title: "AI Customer Support Agent",
-      desc: "An AI-powered customer support system featuring intelligent conversation handling, product knowledge retrieval, multi-turn context management, and automated customer assistance for e-commerce platforms.",
-      img: "./Agent.jpg",
-      live: "https://github.com/Abdulwahid84?tab=repositories",
-      git: "https://github.com/Abdulwahid84?tab=repositories",
-      tech: [
-        "Python",
-        "Langflow",
-        "Streamlit",
-        "OpenAI",
-        "AstraDB",
-        "RAG",
-        "Multi-Agent AI",
-        "vector Search",
-      ],
-    },
+  {
+    title: "AI Customer Support Agent",
+    desc: "An LLM-powered customer support chatbot built with Langflow, featuring Retrieval-Augmented Generation (RAG), intelligent query routing, vector search with AstraDB, and context-aware responses.",
+    img: "./Agent.jpg",
+    live: "https://github.com/AkshatBhat/Langflow-Customer-Support-Agent",
+    git: "https://github.com/AkshatBhat/Langflow-Customer-Support-Agent",
+    tech: [
+      "Python",
+      "Langflow",
+      "Streamlit",
+      "OpenAI",
+      "AstraDB",
+      "RAG",
+      "Multi-Agent AI",
+      "Vector Search",
+    ],
+  },
 
-        // {
-    //   title: "CKD Prediction System",
-    //   desc: "Machine learning system for Chronic Kidney Disease prediction using patient healthcare data with optimized preprocessing and feature engineering.",
-    //   img: "./ckd.png",
-    //   live: "#",
-    //   git: "https://github.com/Abdulwahid84",
-    //   tech: [
-    //     "Python",
-    //     "Machine Learning",
-    //     "Pandas",
-    //     "NumPy",
-    //     "Scikit-learn",
-    //   ],
-    // },
+  {
+    title: "Movie Recommendation System",
+    desc: "A content-based movie recommendation system that leverages cosine similarity and the TMDB API to deliver personalized movie suggestions in real time.",
+    img: "./movie.png",
+    live: "https://github.com/Abdulwahid84/movie-recommendation",
+    git: "https://github.com/Abdulwahid84/movie-recommendation",
+    tech: [
+      "Python",
+      "Streamlit",
+      "TMDB API",
+      "Scikit-learn",
+      "Recommendation System",
+    ],
+  },
 
-    {
-      title: "Movie Recommendation System",
-      desc: "Content-based movie recommendation system using cosine similarity and TMDB API integration with real-time recommendations.",
-      img: "./movie.png",
-      live: "https://github.com/Abdulwahid84/movie-recommendation",
-      git: "https://github.com/Abdulwahid84/movie-recommendation",
-      tech: [
-        "Python",
-        "Streamlit",
-        "TMDB API",
-        "Scikit-learn",
-        "Recommendation System",
-      ],
-    },
+  {
+    title: "Talk Docs",
+    desc: "An AI-powered PDF chat application that enables users to ask questions about uploaded documents using LangChain, GROQ API, and Retrieval-Augmented Generation (RAG).",
+    img: "./talkdocks.jpg",
+    live: "https://github.com/Abdulwahid84/TalkDocs",
+    git: "https://github.com/Abdulwahid84/TalkDocs",
+    tech: [
+      "Python",
+      "Streamlit",
+      "LangChain",
+      "GROQ API",
+      "FAISS",
+      "RAG",
+    ],
+  },
 
-    // {
-    //   title: "AI-Powered REST APIs",
-    //   desc: "Developed scalable RESTful APIs during internship experience with optimized backend communication and reduced response latency.",
-    //   img: "./api.png",
-    //   live: "#",
-    //   git: "https://github.com/Abdulwahid84",
-    //   tech: [
-    //     "Python",
-    //     "REST APIs",
-    //     "Backend",
-    //     "Caching",
-    //     "Optimization",
-    //   ],
-    // },
-
-    {
-      title: "Talk Docs ",
-      desc: "A modern PDF chat application using GROQ API and LangChain for intelligent document Q&A.",
-      img: "./talkdocks.jpg",
-      live: "https://github.com/Abdulwahid84/TalkDocs",
-      git: "https://github.com/Abdulwahid84/TalkDocs",
-      tech: [
-        "Python",
-        "Pandas",
-        "Data Visualization",
-        "Streamlit",
-        "Analytics",
-      ],
-    },
-
-    {
-      title: "Portfolio Website",
-      desc: "Personal portfolio website showcasing projects, technical skills, achievements, and AI/ML development journey.",
-      img: "./portfolio.png",
-      live: "https://abdul-wahid-portfolio-five.vercel.app/",
-      git: "https://github.com/Abdulwahid84/Portfolio/tree/main",
-      tech: [
-        "React",
-        "Tailwind CSS",
-        "JavaScript",
-        "Responsive Design",
-      ],
-    },
-  ];
-
+  {
+    title: "Portfolio Website",
+    desc: "A modern, responsive portfolio website showcasing my AI/ML projects, technical skills, achievements, and software development journey.",
+    img: "./portfolio.png",
+    live: "https://abdul-wahid-portfolio-five.vercel.app/",
+    git: "https://github.com/Abdulwahid84/Portfolio",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "JavaScript",
+      "Responsive Design",
+    ],
+  },
+];
   return (
     <div
       className={`${containerBg} min-h-screen py-20 transition-colors duration-300 relative overflow-hidden`}
