@@ -33,20 +33,23 @@ const Work = () => {
       ],
     },
 
-    // {
-    //   title: "CKD Prediction System",
-    //   desc: "Machine learning system for Chronic Kidney Disease prediction using patient healthcare data with optimized preprocessing and feature engineering.",
-    //   img: "./ckd.png",
-    //   live: "#",
-    //   git: "https://github.com/Abdulwahid84",
-    //   tech: [
-    //     "Python",
-    //     "Machine Learning",
-    //     "Pandas",
-    //     "NumPy",
-    //     "Scikit-learn",
-    //   ],
-    // },
+    {
+      title: "AI Customer Support Agent",
+      desc: "An AI-powered customer support system featuring intelligent conversation handling, product knowledge retrieval, multi-turn context management, and automated customer assistance for e-commerce platforms.",
+      img: "./Agent.jpg",
+      live: "https://github.com/Abdulwahid84?tab=repositories",
+      git: "https://github.com/Abdulwahid84?tab=repositories",
+      tech: [
+        "Python",
+        "Langflow",
+        "Streamlit",
+        "OpenAI",
+        "AstraDB",
+        "RAG",
+        "Multi-Agent AI",
+        "vector Search",
+      ],
+    },
 
         // {
     //   title: "CKD Prediction System",
