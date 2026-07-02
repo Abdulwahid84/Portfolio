@@ -37,8 +37,8 @@ const Work = () => {
     title: "AI Customer Support Agent",
     desc: "An LLM-powered customer support chatbot built with Langflow, featuring Retrieval-Augmented Generation (RAG), intelligent query routing, vector search with AstraDB, and context-aware responses.",
     img: "./Agent.jpg",
-    live: "https://github.com/AkshatBhat/Langflow-Customer-Support-Agent",
-    git: "https://github.com/AkshatBhat/Langflow-Customer-Support-Agent",
+    live: "https://github.com/Abdulwahid84/Agent-Customer-Support",
+    git: "https://github.com/Abdulwahid84/Agent-Customer-Support",
     tech: [
       "Python",
       "Langflow",
